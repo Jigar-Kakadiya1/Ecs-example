@@ -4,3 +4,9 @@ management:
   endpoint:
     metrics:
       enabled: true
+  endpoints:
+    web:
+      base-path: /details
+      exposure:
+        include: "*"
+        # exclude: metrics,info,beans,caches,conditions,health,httptrace,loggers,mappings,sessions,threaddump,configprops,env,heapdump,scheduledtasks
