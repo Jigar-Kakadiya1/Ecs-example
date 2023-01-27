@@ -11,9 +11,9 @@ import lombok.RequiredArgsConstructor;
 public class UserEntity {
 
     String id = "1";
-    String name = "Darshan.G.Pawar";
-    String userName = "@drash";
-    String email = "drash@geek";
-    String pincode = "422-009";
+    String name = "Prama AI";
+    String userName = "@prama";
+    String email = "info@prama.ai";
+    String pincode = "380015";
 
 }
