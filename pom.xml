@@ -67,6 +67,7 @@
 				</configuration>
 			</plugin>
 		</plugins>
+		<finalName>ecs-example</finalName>
 	</build>
 
 </project>
