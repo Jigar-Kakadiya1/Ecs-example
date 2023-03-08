@@ -15,7 +15,12 @@ public class HomeController {
     @GetMapping("/")
     public String home() {
         log.info("home controller with initial endpoints");
-        return "Welcome to Prama!";
+        return "Welcome to Prama! -";
+    }
+    @GetMapping("/test")
+    public String homeTest() {
+        log.info("home controller with initial endpoints");
+        return "your test api";
     }
 
     @GetMapping("/name/{name}")
