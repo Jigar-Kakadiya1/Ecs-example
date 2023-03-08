@@ -29,4 +29,4 @@ phases:
 artifacts:
   files:
     - imagedefinitions.json
-    - target/country-code.jar
+    - target/ecs-example.jar
