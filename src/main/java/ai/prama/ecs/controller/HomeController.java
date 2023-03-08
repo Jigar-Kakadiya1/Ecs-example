@@ -20,7 +20,7 @@ public class HomeController {
     @GetMapping("/test")
     public String homeTest() {
         log.info("home controller with initial endpoints");
-        return "your test api";
+        return "your test api - Demo";
     }
 
     @GetMapping("/name/{name}")
